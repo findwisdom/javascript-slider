@@ -1,0 +1,43 @@
+*{
+	padding:0;
+	margin:0;
+}
+#nav{
+	position: absolute;
+	width: 240px;
+	text-align:center;
+	overflow:hidden;
+	left: 50%;
+	top: 500px;
+	margin-left: -120px;
+	z-index: 999;
+}
+#nav a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	text-decoration:none;
+	color: #FFFFFF;
+}
+#nav li{
+	background: #ac2925;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	list-style:none;
+	float:left;
+	margin-right: 20px;
+}	
+#slideshow{
+	text-align:center;
+	margin:100px auto 0;
+	position:relative;
+	height:380px;
+	width:660px;
+	overflow:hidden;
+}
+#preview{
+	position:absolute;
+	left: 0;
+	top:-145px;
+}
