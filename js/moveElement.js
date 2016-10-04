@@ -52,7 +52,7 @@ function prepareSlideshow(){
 	var slideshow = document.createElement("div");
 	slideshow.setAttribute("id","slideshow");
 	var preview = document.createElement("img");
-	preview.setAttribute("src","image/slideshow.jpg");
+	preview.setAttribute("src","../image/slideshow.jpg");
 	preview.setAttribute("alt","the preview");
 	preview.setAttribute("id","preview");
 	slideshow.appendChild(preview);
